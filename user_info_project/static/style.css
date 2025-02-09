@@ -1,0 +1,68 @@
+
+body.home-body {
+    background-image: url(https://img.freepik.com/free-photo/blue-stationery-table_23-2148169490.jpg?t=st=1738871694~exp=1738875294~hmac=a95e1f8…&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-family: sans-serif;
+}
+  .inner-form {
+     
+    max-width: 600px;
+    background: #f1f1f1;
+    margin: 50px auto;
+    padding: 50px;
+}
+.inner-form h1 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 0px;
+}
+.inner-form input {
+  font-size: 20px;
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    padding: 16px 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.inner-form label {
+    font-size: 22px;
+    font-weight: 500;
+}
+.inner-form button {
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.inner-userdata table {
+    width: 100%;
+}
+.inner-userdata thead {
+    font-size: 23px;
+    background: #138272;
+    color: #fff;
+    text-transform: uppercase;
+    height: 72px;
+}
+.inner-userdata td {
+    font-size: 24px;
+    padding: 22px;
+}
+.inner-userdata a {
+    background: #ff3333;
+    font-size: 24px;
+    padding: 6px 32px;
+    position: relative;
+    top: 38px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ 

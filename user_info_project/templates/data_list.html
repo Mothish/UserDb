@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data List</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  
+</head>
+<body>
+  <div class="main">
+    <div class="userdata-section">
+<div class="inner-userdata">
+
+
+  <h1>Registered Users</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in data %}
+      <tr>
+        <td>{{ user.first_name }}</td>
+        <td>{{ user.last_name }}</td>
+        <td>{{ user.email }}</td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="3">No data available</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <a href="/">Back</a>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
