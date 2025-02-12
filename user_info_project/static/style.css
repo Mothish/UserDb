@@ -7,7 +7,7 @@ body.home-body {
 body {
     font-family: sans-serif;
 }
-  .inner-form {
+  .inner-form, .update-userdata {
      
     max-width: 600px;
     background: #f1f1f1;
@@ -20,7 +20,7 @@ body {
     text-transform: uppercase;
     padding: 0px 0px 20px 0px;
 }
-.inner-form input {
+.inner-form input , .update-userdata input{
   font-size: 20px;
     width: 100%;
     border: 1px solid #c1c1c1;
@@ -54,7 +54,7 @@ body {
     font-size: 24px;
     padding: 22px;
 }
-.inner-userdata a {
+.deletd-btn {
     background: #ff3333;
     font-size: 24px;
     padding: 6px 32px;
@@ -63,6 +63,31 @@ body {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
 }
-
- 
+.update-btn, .update-user{
+    background: #0e8401;
+    font-size: 24px;
+    padding: 6px 32px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.update-td{
+    text-align: center;
+}
+a.back-cls {
+    text-decoration: none;
+    background: #ccc;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    color: #000;
+}
+.inner-userdata {
+    position: relative;
+}
+button {
+    cursor: pointer;
+}

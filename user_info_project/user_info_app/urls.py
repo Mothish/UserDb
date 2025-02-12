@@ -10,6 +10,8 @@ urlpatterns = [
     path('user_info/', views.user_info_view, name='user_info'),  # User info form page
     path('profile/', views.profile, name='profile'),  # Profile page
     path('admin/', admin.site.urls),
+    path('delete/', views.delete_users, name='delete_users'),
+    path('update/<int:user_id>/', views.update_user, name='update_user'), 
     #path('', include('user_info_app.urls')),
     #path('data-list/', views.data_list_view, name='data_list'),
 
